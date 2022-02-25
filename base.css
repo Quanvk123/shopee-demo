@@ -1,0 +1,23 @@
+.grid__column-2{
+    width: 32.6667%;
+}
+
+
+.grid__column-10{
+    width: 67.3334%;
+}
+
+.grid1 {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.grid1.wide1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}

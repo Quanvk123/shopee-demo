@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+}
+
+.anh{
+    width: 35px;
+    height: 35px;
+}
+
+.item{
+    font-size: 0.78rem;
+    line-height: 20px;
+    min-width: 200px;
+    position: relative;
+}
+
+.item a{
+    color: #6CAAE2;
+}
+
+.item-phone{
+    text-align: end;
+}
+
+.item-img{
+    margin: 0;
+    padding: 0;
+    background: url(https://business.momo.vn/assets/landingpage/img/158f1e1751b85c5ee7cd2bf635770e4d-banner-2.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    font-family: sans-serif;
+    margin-top: -6px;
+    
+}
+
+.quan89{
+    max-width: 607px;
+    height: auto;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+    font-weight: 300;
+    position: relative;
+    top: 40px;
+    padding-bottom: 10px;
+}
+
+.thecon{
+    max-width: 577px;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.thecon1{
+    width: 100%;
+    text-align: center;
+}
+
+.thecon img{
+    padding: 16px 0;
+    max-width: 88px;
+    height: 88px;
+    margin: auto;
+}
+
+.thecon h2{
+    line-height: 18px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    font-size: 2rem;
+    color: #4D4D4D;
+}
+
+.thecon p{
+    color: #676767;
+    font-weight: 200;
+}
+
+.thep{
+    font-size: 1.2rem;
+}
+
+.dangnhap{
+    max-width: 500px;
+    height: 70px;
+    margin: auto;
+    padding: 10px 10px;
+    
+}
+
+.dangnhap p{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.dangnhap-name{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.name{
+    width: 95%;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #fbfeff;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #eee;
+}
+
+.name:focus{
+    border: 1px solid #BB0077;
+}
+
+ .dangnhap1{
+    height: 50px;
+    max-width: 498px;
+    margin: auto;
+    padding: 0 10px;
+    
+}
+
+.dangnhap-name1{
+    width: 100%;
+    height: auto;
+}
+
+.btn{
+    width: 98%;
+    height: 38px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: #c12b88;
+    border-color: #df068c;
+    font-size: 1rem
+}
+
+.quen{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.quen a{
+   line-height: 30px;
+   color: #6CAAE2;
+}
+
+.quen a{
+    font-size: 0.88rem;
+}
+
+.quen p{
+    font-size: 0.88rem;
+}
+
+.thep-item{
+    margin-top: 12px;
+}
+
+.quen a:hover{
+    border-bottom: 1px solid  #6CAAE2;
+}
+
+.cuoi{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+.cuoi1{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #4D4D4D;
+    font-weight: 500;
+    border-top: 1px solid rgba(226, 224, 224, 0.5);
+}
+
+.form .item{
+    text-align: end;
+}
+
+.item-phone .VN{
+    
+    position: absolute;
+    top: 6px;
+    left: -30px;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.ngonngu{
+    width: 100%;
+    height: 30px;   
+    border-radius: 3px;
+    background-color: rgb(248, 244, 244);
+    margin-top:5px;
+    display: none;
+    box-shadow: 0.2px 1px 3px rgb(230, 233, 229);
+}
+
+.VN:hover .ngonngu{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.the{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.the:hover{
+    background-color: rgba(226, 224, 224, 0.5);
+}
+.facebook{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 8px;
+}
+.facebook i{
+    padding-top: 5px;
+    font-size: 3rem;
+    color: #0D88F0;
+}
+/* reposive */
+
+@media (max-width: 575px) {
+    .thep{
+        font-size:0.9rem;
+    }
+}
+@media(max-width: 630px) {
+    .form{
+        box-shadow: 0 0.8px 1px #a19f9f;
+    }
+    .item-img{
+        background: none;
+        background-color: #F5F5F5;
+        margin-top: 2px;
+    }
+    .cuoi1{
+        display: none;
+    }
+
+}
+@media (max-width: 630px) {
+    .quan89{
+        position: relative;
+        top: 0;
+    }
+} 
+@media (min-width: 451px) and (max-width:630px){
+    .cuoi{
+        background-color: black;
+    }
+}
+@media(max-width: 450px) {
+    .cuoi{
+        display: none;
+    }
+}
+@media (min-width: 451px) and (max-width:629px){
+    .quan123{
+        display: block;
+    }
+}
+
+
